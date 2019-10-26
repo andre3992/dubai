@@ -8,10 +8,15 @@ li {
     list-style: none;
 }
 
+a{
+    color: black;
+}
+
 nav,
 footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 nav ul,
