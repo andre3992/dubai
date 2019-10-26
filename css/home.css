@@ -1,0 +1,12 @@
+.nav-header{
+  background-image: url('/dubai-img.jpg');
+  height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+
+  
+}
+
+header{padding: 400px 0;}
