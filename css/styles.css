@@ -34,6 +34,7 @@ body{
 .main-title-h1{
     font-size: 3.43rem;
     line-height: 55px;
+    color: white;
 }
 
 /* subtítulo 40px */
@@ -46,13 +47,17 @@ body{
 .paragraph-p{
     font-size: 1.25rem;
     line-height: 20px;
+    color: white;
 }
 
 /* nav and menu text styles 18px */
-.menu-text{
+.menu-text, .nav-link {
  font-size: 1.12rem;
  line-height: 18px;
+ color: white;
 }
+
+
 
 
 
