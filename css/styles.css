@@ -1,17 +1,19 @@
-ul,
-li {
-    margin: 0px;
-    padding: 0px;
-}
+/* Reset  default styles */
 
-li {
-    list-style: none;
-}
+@import url("reset.css");
 
+/* responsive styles */
+
+@import url("media.css");
+@import url("tours.css");
+@import url("home.css");
+@import url("information.css");
+@import url("events.css");
 nav,
 footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav ul,
@@ -20,6 +22,50 @@ footer ul {
     justify-content: space-around;
 }
 
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
 .row {
     text-align: center;
+}
+
+
+/* título principal 55px*/
+
+.main-title-h1 {
+    font-size: 3.43rem;
+    line-height: 55px;
+    color: white;
+}
+
+
+/* subtítulo 40px */
+
+.secondary-title-h2 {
+    font-size: 2.5rem;
+    line-height: 40px;
+}
+
+
+/* paragraph 20px */
+
+.paragraph-p {
+    font-size: 1.25rem;
+    line-height: 20px;
+    color: white;
+}
+
+
+/* nav and menu text styles 18px */
+
+.menu-text,
+.nav-link {
+    font-size: 1.12rem;
+    line-height: 18px;
+    color: white;
+}
+
+.thumbnail img {
+    height: 300px;
 }
