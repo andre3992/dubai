@@ -20,6 +20,35 @@ footer ul {
     justify-content: space-around;
 }
 
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
 .row {
     text-align: center;
 }
+
+/* título principal 55px*/
+.main-title-h1{
+    font-size: 3.43rem;
+    line-height: 55px;
+}
+
+/* subtítulo 40px */
+.secondary-title-h2{
+    font-size: 2.5rem;
+    line-height: 40px;
+}
+
+/* paragraph 20px */
+.paragraph-p{
+    font-size: 1.25rem;
+    line-height: 20px;
+}
+
+/* nav and menu text styles 18px */
+.menu-text{
+ font-size: 1.12rem;
+ line-height: 18px;
+}
+
