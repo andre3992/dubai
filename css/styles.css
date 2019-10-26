@@ -12,14 +12,18 @@
 nav,
 footer {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
 nav ul,
 footer ul {
     display: inline-flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+nav.container{
+    padding: 50px 0px;
 }
 
 body{
@@ -32,15 +36,22 @@ body{
 
 /* título principal 55px*/
 .main-title-h1{
-    font-size: 3.43rem;
-    line-height: 55px;
+    font-size: 9rem;
+    font-weight: 900;
+    /*line-height: 1.33;*/
     color: white;
+}
+
+.title-description{
+    font-size: 3rem;
+    color: white;
+    /*line-height: 1.33;*/
 }
 
 /* subtítulo 40px */
 .secondary-title-h2{
     font-size: 2.5rem;
-    line-height: 40px;
+    margin-bottom: 20px;
 }
 
 /* paragraph 20px */
@@ -52,12 +63,36 @@ body{
 
 /* nav and menu text styles 18px */
 .menu-text, .nav-link {
- font-size: 1.12rem;
- line-height: 18px;
- color: white;
+    font-size: 1.3rem;
+    line-height: 1.33;
+    color: white;
+    position: relative;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.nav-link:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.nav-link:hover:after { 
+    width: 100%; 
+    left: 0; 
 }
 
 
-
-
+section{
+    margin-top: 100px;
+}
 
