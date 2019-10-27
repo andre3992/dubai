@@ -6,7 +6,7 @@
   background-position: center;  
 }
 
-header{padding-top: 150px;}
+header{padding-top: 100px;}
 
 ul,
 li {
@@ -52,3 +52,8 @@ footer ul {
 }
 
 
+.about-us p{
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}

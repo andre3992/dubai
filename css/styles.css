@@ -28,6 +28,8 @@ nav.container{
 
 body{
     font-family: 'Raleway', sans-serif;
+    background-color: #191c18;
+    color: white;
 }
 
 .row {
@@ -52,6 +54,8 @@ body{
 .secondary-title-h2{
     font-size: 2.5rem;
     margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
 }
 
 /* paragraph 20px */
@@ -78,7 +82,7 @@ body{
     bottom: 0;
     content: "";
     display: block;
-    height: 2px;
+    height: 1px;
     left: 50%;
     position: absolute;
     background: #fff;
