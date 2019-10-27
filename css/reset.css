@@ -1,6 +1,6 @@
 
 ul,
-li {
+li, h1, p, h1 {
   margin: 0px;
   padding: 0px;
 }
