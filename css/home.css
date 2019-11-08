@@ -1,31 +1,25 @@
 .nav-header{
-  background-image: url('https://images.unsplash.com/photo-1557093793-e196ae071479?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80');
-  height: 100vh;
+  background-image: url('../img/bg.jpg') ;
+  height: 800px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;  
 }
 
-header{padding-top: 100px;}
-
-ul,
-li {
-  margin: 0px;
-  padding: 0px;
+.nav-items{
+  padding: 20px 0px;
 }
 
-li {
-  list-style: none;
+ul.nav, .logo{
+  display: flex;
 }
 
-nav ul,
-footer ul {
-  display: inline-flex;
-  justify-content: space-between;
+.nav{
+  justify-content: flex-end;
 }
 
-.row {
-  text-align: center;
+.banner-content{
+  padding-top: 180px;
 }
 
 .modal {
@@ -44,16 +38,28 @@ footer ul {
 
 .modal-inner {
   background-color: #fefefe;
-  margin: 15% auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 30%;
+  /* margin: 15% auto; */
+  padding: 40px;
+  /* border: 1px solid #888; */
+  max-width: 600px;
   text-align: center;
+  margin: 0 auto;
+}
+
+
+.event-item{
+  margin-right: 20px;
+}
+
+
+.about-us{
+  background: white;
+  color: black;
+  padding: 60px 0px;
 }
 
 
 .about-us p{
-  max-width: 500px;
   margin: 0 auto;
   text-align: center;
 }
