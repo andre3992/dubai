@@ -32,6 +32,9 @@ body{
     color: white;
 }
 
+a:hover{
+    text-decoration: none;
+}
 
 /* título principal 55px*/
 .main-title-h1{
@@ -53,13 +56,29 @@ body{
     margin-bottom: 40px;
     font-weight: bold;
     text-align: center;
+    border-bottom: solid 3px;
+    width: fit-content;
+    text-align: center;
+    position: relative;
+    margin: 40px auto 60px auto;
 }
+
+/*.secondary-title-h2:after{
+    content: "";
+    display: inline-table;
+    height: 3px;
+    background: #fff;
+    width: 100px;
+    top: 15px;
+    position: relative;
+    text-align: center;
+    left: -150px;
+}*/
 
 /* paragraph 20px */
 .paragraph-p{
-    font-size: 1.25rem;
-    line-height: 20px;
-    color: white;
+    font-size: 1.31em;
+    line-height: 1.19;
 }
 
 /* nav and menu text styles 18px */
@@ -89,12 +108,17 @@ body{
     background: #fff;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
-}
-
-.nav-link:hover:after { 
-    width: 100%; 
-    left: 0; 
 }*/
+
+.navlink-last:before { 
+    content: "";
+    display: block;
+    height: 27px;
+    background: #fff;
+    width: 3px;
+    position: absolute;
+    left: -19px;
+}
 
 
 section{
