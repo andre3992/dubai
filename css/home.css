@@ -1,4 +1,4 @@
-.nav-header{
+.nav-header-home{
   background-image: linear-gradient(0deg,rgb(30, 30, 30) 0%,rgba(30, 30, 30, 0.52) 25%,rgba(30, 30, 30, 0.43) 75%,rgba(30,30,30,1) 100%), url('../img/background.jpg') ;
   height: 800px;
   background-size: cover;
@@ -14,7 +14,7 @@
     opacity: 1;
 */
 .nav-items{
-  padding: 20px 0px;
+  padding: 40px 0px;
 }
 
 ul.nav, .logo{

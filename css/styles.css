@@ -63,16 +63,19 @@ body{
 }
 
 /* nav and menu text styles 18px */
-.menu-text, .nav-link {
+.menu-text, .navlink {
     font-size: 1.3rem;
     line-height: 1.33;
     color: white;
     position: relative;
     font-weight: bold;
+    transition: 0.2s;
+    padding-right: 20px;
 }
 
-.nav-link:hover{
-    color: white;
+.navlink:hover, .navlink:focus{
+    color: #e4f757;
+    text-decoration: none;
 }
 
 /*.nav-link:after {    
