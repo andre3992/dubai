@@ -1,14 +1,14 @@
 /* Reset  default styles */
+
 @import url("reset.css");
 
 /* responsive styles */
-@import url("media.css");
 
+@import url("media.css");
 @import url("tours.css");
 @import url("home.css");
 @import url("information.css");
 @import url("events.css");
-
 nav,
 footer {
     display: flex;
@@ -22,11 +22,11 @@ footer ul {
     justify-content: space-between;
 }
 
-nav.container{
+nav.container {
     padding: 50px 0px;
 }
 
-body{
+body {
     font-family: 'Raleway', sans-serif;
     background-color: #1d1e1e;
     color: white;
@@ -37,21 +37,24 @@ a:hover{
 }
 
 /* título principal 55px*/
-.main-title-h1{
+
+.main-title-h1 {
     font-size: 9rem;
     font-weight: 900;
     /*line-height: 1.33;*/
     color: white;
 }
 
-.title-description{
+.title-description {
     font-size: 3rem;
     color: white;
     /*line-height: 1.33;*/
 }
 
+
 /* subtítulo  */
-.secondary-title-h2{
+
+.secondary-title-h2 {
     font-size: 4em;
     margin-bottom: 40px;
     font-weight: bold;
@@ -62,6 +65,7 @@ a:hover{
     position: relative;
     margin: 40px auto 60px auto;
 }
+
 
 /*.secondary-title-h2:after{
     content: "";
@@ -79,10 +83,11 @@ a:hover{
 .paragraph-p{
     font-size: 1.31em;
     line-height: 1.19;
-}
 
 /* nav and menu text styles 18px */
-.menu-text, .navlink {
+
+.menu-text,
+.navlink {
     font-size: 1.3rem;
     line-height: 1.33;
     color: white;
@@ -92,10 +97,12 @@ a:hover{
     padding-right: 20px;
 }
 
-.navlink:hover, .navlink:focus{
+.navlink:hover,
+.navlink:focus {
     color: #e4f757;
     text-decoration: none;
 }
+
 
 /*.nav-link:after {    
     background: none repeat scroll 0 0 transparent;
@@ -121,7 +128,6 @@ a:hover{
 }
 
 
-section{
-    margin-top: 100px;
+section {
+   margin-top: 100px;
 }
-
