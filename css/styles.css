@@ -32,9 +32,10 @@ body {
     color: white;
 }
 
-a:hover{
+a:hover {
     text-decoration: none;
 }
+
 
 /* título principal 55px*/
 
@@ -79,10 +80,14 @@ a:hover{
     left: -150px;
 }*/
 
+
 /* paragraph 20px */
-.paragraph-p{
+
+.paragraph-p {
     font-size: 1.31em;
     line-height: 1.19;
+}
+
 
 /* nav and menu text styles 18px */
 
@@ -117,7 +122,7 @@ a:hover{
     width: 0;
 }*/
 
-.navlink-last:before { 
+.navlink-last:before {
     content: "";
     display: block;
     height: 27px;
@@ -127,7 +132,6 @@ a:hover{
     left: -19px;
 }
 
-
 section {
-   margin-top: 100px;
+    margin-top: 100px;
 }

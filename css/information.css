@@ -12,16 +12,21 @@ header {
     padding-top: 100px;
 }
 
-
 .slider-title h4 {
     font-weight: 400;
     font-style: italic;
     font-size: 2.8rem;
+    color: grey;
+}
+
+.col-sm {
+    color: grey;
 }
 
 .paragraph-i {
     color: grey;
 }
+
 
 /*.carousel {
     color: grey;
@@ -39,3 +44,22 @@ header {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
+.information {
+    color: black;
+    font-size: 1.3rem;
+    line-height: 1.33;
+    position: relative;
+    font-weight: bold;
+    transition: 0.2s;
+    padding-right: 20px;
+}
+
+.information-last:before {
+    content: "";
+    display: block;
+    height: 27px;
+    background: black;
+    width: 3px;
+    position: absolute;
+    left: -19px;
+}
