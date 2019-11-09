@@ -8,11 +8,6 @@
   opacity: 1; 
 }
 
-
-/*background-image: 
-    background-color: transparent;
-    opacity: 1;
-*/
 .nav-items{
   padding: 40px 0px;
 }
@@ -45,9 +40,7 @@ ul.nav, .logo{
 
 .modal-inner {
   background-color: #fefefe;
-  /* margin: 15% auto; */
   padding: 40px;
-  /* border: 1px solid #888; */
   max-width: 600px;
   text-align: center;
   margin: 0 auto;
@@ -97,6 +90,10 @@ ul.nav, .logo{
   text-align: center;
 }
 
+.modal-inner{
+  position: relative;
+}
+
 form h2{
   font-weight: 900;
   color: #1d1e1e;
@@ -106,10 +103,10 @@ form h2{
 .contact-us input, .contact-us textarea{
   width: 100%;
   margin-bottom: 15px;
-    padding: 20px;
-    border-radius: 50px;
-    border: none;
-    background: #f0f0f0;
+  padding: 20px;
+  border-radius: 50px;
+  border: none;
+  background: #f0f0f0;
 }
 
 .contact-us textarea{
@@ -124,9 +121,24 @@ form h2{
   padding: 30px 40px; 
 }
 
+#close-button{
+  display: block;
+  font-size: 30px;
+  color: #1d1e1e;
+  float: right;
+  right: 30px;
+  position: absolute;
+  top: 30px;
+  font-weight: 700;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+}
+
 .form-button{
   width: 180px;
-  padding: 20px;
+  padding: 15px;
   border: none;
   border-radius: 50px;
   color: white;
@@ -136,6 +148,8 @@ form h2{
   cursor: pointer;
   font-family: 'Raleway', sans-serif;
 }
+
+
 
 
 

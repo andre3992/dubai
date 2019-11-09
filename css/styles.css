@@ -38,7 +38,6 @@ a:hover {
 
 
 /* título principal 55px*/
-
 .main-title-h1 {
     font-size: 9rem;
     font-weight: 900;
@@ -54,7 +53,6 @@ a:hover {
 
 
 /* subtítulo  */
-
 .secondary-title-h2 {
     font-size: 4em;
     margin-bottom: 40px;
@@ -82,7 +80,6 @@ a:hover {
 
 
 /* paragraph 20px */
-
 .paragraph-p {
     font-size: 1.31em;
     line-height: 1.19;
@@ -90,7 +87,6 @@ a:hover {
 
 
 /* nav and menu text styles 18px */
-
 .menu-text,
 .navlink {
     font-size: 1.3rem;
