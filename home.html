@@ -16,17 +16,17 @@
   <div class="nav-header-home">
     <div class="container">
       <div class="nav-items row">
-        <a class="logo col-md-4">LOGO<img src="" alt=""></a>
-        <nav class="nav col-md-8">
+        <a href="#" class="logo col-md-2"><img src="./img/logo.png" alt=""></a>
+        <nav class="nav col-md-10">
           <ul class="nav">
             <li class="nav-item menu-text">
-              <a class="navlink" href="#">Itineraries</a>
+              <a class="navlink" href="#">Information</a>
             </li>
             <li class="nav-item menu-text">
-              <a class="navlink" href="#">Relevant Information</a>
+              <a class="navlink" href="#">Tours</a>
             </li>
-            <li class="nav-item menu-text">
-              <a class="navlink" href="#">Contact Us</a>
+            <li class="nav-item menu-text navlink-last">
+              <a class="navlink" id="open-modal" href="#">Contact Us</a>
             </li>
           </ul>
         </nav>
@@ -41,90 +41,107 @@
   </div>
 
   <section class="events">
+
+    <h2 class="secondary-title-h2">Events</h2>
+
     <div class="container">
-      <h2 class="secondary-title-h2">Events</h2>
-      <div class="center">
-        <div class="row">
-          <div class="event-item column">
-            <img src="img/dabang.jpg" alt=":)" width="350">
-            <p>
-              <a href="https://www.visitdubai.com/en/events/dabangg-the-tour-reloaded-2019">Da-Bangg:
-                The Tour Reloaded</a>
-            </p>
-            <p>Bollywood's hottest stars live in Dubai</p>
+      <div class="row">
+
+        <a href="#">
+          <div class="event-item column col-4">
+            <div class="event-block">
+              <img src="./img/events-1.jpg" alt="">
+              <div class="events-text">
+                <h6>Bali Spirit Festival</h6>
+                <p class="paragraph-p">The Bali Spirit Festival embodies the core mantra
+                  of Balinese Hinduism - Tri Hita Karana - to live in harmony
+                  with our spiritual, social, and natual environments.
+                </p>
+              </div>
+            </div>
+        </a>
+      </div>
+      <a href="#">
+        <div class="event-item column col-4">
+          <div class="event-block">
+            <img src="./img/events2.jpg" alt="">
+            <div class="events-text">
+              <h6>Bali Spirit Festival</h6>
+              <p class="paragraph-p">The Bali Spirit Festival embodies the core mantra
+                of Balinese Hinduism - Tri Hita Karana - to live in harmony
+                with our spiritual, social, and natual environments.
+              </p>
+            </div>
           </div>
-          <div class="event-item column">
-            <img src="img/desertroad.jpg" alt=":)" width="350">
-            <p>
-              <a href="https://www.visitdubai.com/en/events/desert-road-runners-cross-country">Desert
-                Road Runners Cross Country 2019</a>
+      </a>
+    </div>
+    <a href="#">
+      <div class="event-item column col-4">
+        <div class="event-block">
+          <img src="./img/events3.jpg" alt="">
+          <div class="events-text">
+            <h6>Bali Spirit Festival</h6>
+            <p class="paragraph-p">The Bali Spirit Festival embodies the core mantra
+              of Balinese Hinduism - Tri Hita Karana - to live in harmony
+              with our spiritual, social, and natual environments.
             </p>
-            <p>BSteady sprint to victory</p>
-          </div>
-          <div class="event-item column">
-            <img src="img/roxnRoll.jpg" alt=":)" width="350">
-            <p>
-              <a href="https://www.visitdubai.com/en/events/rox-roll-dubai-outlet-mall">RoxnRoll:
-                Tekken World Tour</a>
-            </p>
-            <p>Get your gaming hats on for the Tekken World Tour</p>
           </div>
         </div>
+    </a>
+    </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="about-us">
+    <div class="container">
+      <h2 class="secondary-title-h2"> About us </h2>
+      <div class="col-8 about-us-text">
+        <p class="paragraph-p"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi turpis velit, sodales
+          vitae tempus ut
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi turpis velit, sodales vitae tempus ut,
+          iaculis a nunc. Praesent massa dui, maximus non nisl ut, sagittis ultrices lectus. Aenean in dui pharetra,
+          faucibus metus quis, facilisis libero. Ut sodales nisl enim, quis aliquet velit sagittis sed. Maecenas
+          cursus purus a metus euismod faucibus."
+        </p>
       </div>
     </div>
   </section>
 
-  <section class="about-us ">
-    <div class="container">
-      <h2 class="secondary-title-h2"> About us </h2>
-      <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi turpis velit, sodales vitae tempus ut
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi turpis velit, sodales vitae tempus ut,
-        iaculis a nunc. Praesent massa dui, maximus non nisl ut, sagittis ultrices lectus. Aenean in dui pharetra,
-        faucibus metus quis, facilisis libero. Ut sodales nisl enim, quis aliquet velit sagittis sed. Maecenas
-        cursus purus a metus euismod faucibus."
-      </p>
+  <section class="contact-us container">
+    <div id="modal" class="container modal">
+      <div class="modal-inner">
+
+        <form class="col-12">
+          <h2>Contact Us</h2>
+          <input name="name" id="name" placeholder="Name">
+          <input name="email" id="email" placeholder="E-mail">
+          <textarea name="message" id="message" placeholder="Message"></textarea>
+          <button class="form-button" id="close-modal">Send</button>
+        </form>
+
+      </div>
     </div>
   </section>
 
-  <section class="contact-us container">
-    <button id="open-modal">
-      <h2 class="contact-button"> Contact Us</h2>
-    </button>
 
-    <div id="modal" class="container modal">
-      <div class="modal-inner">
-       
-        <form> 
-          <div>
-            <label for="name">Name:</label><br>
-            <input name="name" id="name" >
-            <label for="email">E-Mail:</label><br>
-            <input name="email" id="email" >
-            <label for="subject">Subject:</label><br>
-            <input name="subject" id="subject" >
-            <label for="message">Message:</label><br>
-            <textarea name="message" id="message" ></textarea>
-            <button id="close-modal">Send</button>
-          </div>
-        </form>
-      </div> 
-    </div> 
-  </section>
+
+  
 
   <footer>
     <div class="container">
       <div class="nav-items row">
-        <a class="logo col-md-4">LOGO<img src="" alt=""></a>
-        <nav class="nav col-md-8">
+        <a href="#" class="logo col-md-2"><img src="./img/logo.png" alt=""></a>
+        <nav class="nav col-md-10">
           <ul class="nav">
             <li class="nav-item menu-text">
-              <a class="nav-link" href="#">Itineraries</a>
+              <a class="navlink" href="#">Information</a>
             </li>
             <li class="nav-item menu-text">
-              <a class="nav-link" href="#">Relevant Information</a>
+              <a class="navlink" href="#">Tours</a>
             </li>
-            <li class="nav-item menu-text">
-              <a class="nav-link" href="#">Contact Us</a>
+            <li class="nav-item menu-text navlink-last">
+              <a class="navlink" id="open-modal" href="#">Contact Us</a>
             </li>
           </ul>
         </nav>
@@ -132,17 +149,21 @@
     </div>
   </footer>
 
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-  </script>
+
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
   </script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
   </script>
+
   <script src="css/javascript.js"></script>
 
 </body>
 
-</html>∏∏
+</html>

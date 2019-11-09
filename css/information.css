@@ -12,6 +12,7 @@ header {
     padding-top: 100px;
 }
 
+
 .slider-title h4 {
     font-weight: 400;
     font-style: italic;
@@ -22,9 +23,9 @@ header {
     color: grey;
 }
 
-.carousel {
+/*.carousel {
     color: grey;
-}
+}*/
 
 .background-information {
     background-color: white;
@@ -37,3 +38,4 @@ header {
 .carousel-control-next-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
+

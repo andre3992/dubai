@@ -53,20 +53,89 @@ ul.nav, .logo{
   margin: 0 auto;
 }
 
-
-.event-item{
-  margin-right: 20px;
+.event-item img{
+  border-radius: 10px 10px 0px 0px;
 }
 
+.event-block{
+  background: white;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+.event-block:hover{
+  background: transparent;
+}
+
+.event-block h6{
+  color: #6f6c6c;
+  font-weight: bold;
+  font-size: 1.40rem;
+  margin-bottom: 30px;
+}
+
+.event-block p{
+  color: #6f6c6c;
+  font-weight: 400;
+}
+
+.events-text{
+  padding: 30px;
+}
 
 .about-us{
-  background: white;
-  color: black;
+  
   padding: 60px 0px;
 }
 
+.about-us-text{
+  margin: 0 auto;
+}
 
 .about-us p{
   margin: 0 auto;
   text-align: center;
 }
+
+form h2{
+  font-weight: 900;
+  color: #1d1e1e;
+  margin-bottom: 40px;
+}
+
+.contact-us input, .contact-us textarea{
+  width: 100%;
+  margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 50px;
+    border: none;
+    background: #f0f0f0;
+}
+
+.contact-us textarea{
+  height: 150px;
+}
+
+.contact-us input::placeholder, .contact-us textarea::placeholder{
+  color:#cecece;
+  font-family: 'Raleway', sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  padding: 30px 40px; 
+}
+
+.form-button{
+  width: 180px;
+  padding: 20px;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-weight: 700;
+  font-size: 21px;
+  background: #707070;
+  cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
