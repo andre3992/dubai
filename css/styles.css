@@ -32,12 +32,12 @@ body {
     color: white;
 }
 
-a:hover{
+a:hover {
     text-decoration: none;
 }
 
-/* título principal 55px*/
 
+/* título principal 55px*/
 .main-title-h1 {
     font-size: 9rem;
     font-weight: 900;
@@ -53,7 +53,6 @@ a:hover{
 
 
 /* subtítulo  */
-
 .secondary-title-h2 {
     font-size: 4em;
     margin-bottom: 40px;
@@ -79,13 +78,15 @@ a:hover{
     left: -150px;
 }*/
 
+
 /* paragraph 20px */
-.paragraph-p{
+.paragraph-p {
     font-size: 1.31em;
     line-height: 1.19;
 }
-/* nav and menu text styles 18px */
 
+
+/* nav and menu text styles 18px */
 .menu-text,
 .navlink {
     font-size: 1.3rem;
@@ -117,7 +118,7 @@ a:hover{
     width: 0;
 }*/
 
-.navlink-last:before { 
+.navlink-last:before {
     content: "";
     display: block;
     height: 27px;
@@ -127,7 +128,6 @@ a:hover{
     left: -19px;
 }
 
-
 section {
-   margin-top: 100px;
+    margin-top: 100px;
 }
