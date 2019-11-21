@@ -1,15 +1,35 @@
-
 /* DESKTOP */
-@media screen and (max-width: 1200px) {
-  
-}
+@media screen and (max-width: 1200px) {}
 
 /* IPAD */
 @media screen and (max-width: 768px) {
-   
+ 
 }
 
 /* MOBILE */
 @media screen and (max-width: 480px) {
-   
+
+  .logo img {
+    width: 100px;
+  }
+
+  .nav{
+    display: none;
+  }
+
+  .about-us {
+    padding: 0px 0px;
+  }
+
+  section {
+    margin-top: 60px;
+  }
+
+  .secondary-title-h2 {
+    font-size: 3em;
+  }
+
+  .title-description {
+    font-size: 40px;
+  }
 }
