@@ -1,14 +1,18 @@
 /* Reset  default styles */
-
 @import url("reset.css");
+
+@import url("tours.css");
+@import url("information.css");
+@import url("events.css");
+
+
+
+@import url("home.css");
 
 /* responsive styles */
 
-@import url("media.css");
-@import url("tours.css");
-@import url("home.css");
-@import url("information.css");
-@import url("events.css");
+
+
 nav,
 footer {
     display: flex;
@@ -36,10 +40,13 @@ a:hover {
     text-decoration: none;
 }
 
+.logo img {
+    width: 170px;
+}
 
 /* título principal 55px*/
 .main-title-h1 {
-    font-size: 9rem;
+    font-size: 8rem;
     font-weight: 900;
     /*line-height: 1.33;*/
     color: white;
@@ -51,10 +58,9 @@ a:hover {
     /*line-height: 1.33;*/
 }
 
-
 /* subtítulo  */
 .secondary-title-h2 {
-    font-size: 4em;
+    font-size: 50px;
     margin-bottom: 40px;
     font-weight: bold;
     text-align: center;
@@ -65,26 +71,11 @@ a:hover {
     margin: 40px auto 60px auto;
 }
 
-
-/*.secondary-title-h2:after{
-    content: "";
-    display: inline-table;
-    height: 3px;
-    background: #fff;
-    width: 100px;
-    top: 15px;
-    position: relative;
-    text-align: center;
-    left: -150px;
-}*/
-
-
 /* paragraph 20px */
 .paragraph-p {
     font-size: 1.31em;
     line-height: 1.19;
 }
-
 
 /* nav and menu text styles 18px */
 .menu-text,
@@ -104,20 +95,6 @@ a:hover {
     text-decoration: none;
 }
 
-
-/*.nav-link:after {    
-    background: none repeat scroll 0 0 transparent;
-    bottom: 0;
-    content: "";
-    display: block;
-    height: 1px;
-    left: 50%;
-    position: absolute;
-    background: #fff;
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    width: 0;
-}*/
-
 .navlink-last:before {
     content: "";
     display: block;
@@ -130,4 +107,45 @@ a:hover {
 
 section {
     margin-top: 100px;
+}
+
+
+/* ----------------------------------MEDIA QUERIES----------------------------------------------------------*/
+
+@media screen and (max-width: 1200px) {}
+
+/* IPAD */
+@media screen and (max-width: 768px) {}
+
+/* MOBILE */
+@media screen and (max-width: 480px) {
+
+    .logo img {
+        width: 100px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .about-us {
+        padding: 0px 0px;
+    }
+
+    section {
+        margin-top: 60px;
+    }
+
+    .main-title-h1 {
+        font-size: 6rem;
+    }
+
+    .secondary-title-h2 {
+        font-size: 3em;
+    }
+
+    .title-description {
+        font-size: 40px;
+        line-height: 1.19;
+    }
 }
