@@ -14,47 +14,41 @@
 
 <body>
     <div class="background-information">
-        <!--<main class="nav-header-info">
-            <nav class="container">
-                <div><a class="logo" href="home.html">LOGO<img src="" alt=""></a></div>
-                <ul class="nav justify-content-end">
-                    <li class="nav-item menu-text">
-                        <a class="navlink" href="#">Itineraries</a>
-                    </li>
-                    <li class="nav-item menu-text">
-                        <a class="navlink" href="information.html">Relevant Information</a>
-                    </li>
-                    <li class="nav-item menu-text">
-                        <a class="navlink" href="#">Contact Us</a>
-                    </li>
-                </ul>
-            </nav>
-
-            <header class="container">
-                <h1 class="main-title-h1">BALI</h1>
-                <p class="title-description">The island <br> of gods</p>
-            </header>
-        </main>
-      -->
         <div class="nav-header-info">
-            <div class="container">
-                <div class="nav-items row">
-                    <a href="#" class="logo col-md-2"><img src="./img/logo.png" alt=""></a>
-                    <nav class="nav col-md-10">
-                        <ul class="nav">
-                            <li class="nav-item menu-text">
-                                <a class="navlink" href="#">Information</a>
-                            </li>
-                            <li class="nav-item menu-text">
-                                <a class="navlink" href="#">Tours</a>
-                            </li>
-                            <li class="nav-item menu-text navlink-last">
-                                <a class="navlink" id="open-modal" href="#">Contact Us</a>
-                            </li>
-                        </ul>
-                    </nav>
+            <div class="nav-items row">
+                <div class="col-12 col-sm-3">
+                    <a href="home.html" class="logo"><img src="./img/logo.png" alt=""></a>
                 </div>
+                <nav class="nav">
+                    <ul class="nav">
+                        <li class="nav-item menu-text">
+                            <a class="navlink information" href="information.html">Information</a>
+                        </li>
+                        <li class="nav-item menu-text">
+                            <a class="navlink information" href="#">Tours</a>
+                        </li>
+                        <li class="nav-item menu-text navlink-last">
+                            <a class="navlink information" id="open-modal" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
+            <section class="contact-us container">
+                <div id="modal" class="container modal">
+                    <div class="modal-inner">
+
+                        <form class="col-12">
+                            <h2>Contact Us</h2>
+                            <input name="name" id="name" placeholder="Name">
+                            <input name="email" id="email" placeholder="E-mail">
+                            <textarea name="message" id="message" placeholder="Message"></textarea>
+                            <button class="form-button" id="close-modal">Send</button>
+                        </form>
+
+                    </div>
+                </div>
+            </section>
+
             <main class="container">
                 <div class="banner-content">
                     <h1 class="main-title-h1">BALI</h1>
@@ -275,16 +269,23 @@
                                 <a class="information" href="#">Tours</a>
                             </li>
                             <li class="nav-item menu-text information-last">
-                                <a class="information" id="open-modal" href="#">Contact Us</a>
+                                <a class="information" id="open-modalfooter" href="#">Contact Us</a>
                             </li>
                         </ul>
                     </nav>
                 </div>
             </div>
         </footer>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        </script>
+
+        <script src="css/javascript.js"></script>
     </div>
 </body>
 
