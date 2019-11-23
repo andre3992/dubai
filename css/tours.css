@@ -1,0 +1,18 @@
+.container {
+    margin-bottom: 100px;
+}
+
+.space h1 {
+    line-height: 1.33;
+    margin-bottom: 20px;
+}
+
+.space p {
+    margin-bottom: 20px;
+}
+
+.textcolor {
+    color: #4492e6;
+    font-size: 30px;
+    font-weight: bold;
+}
