@@ -35,7 +35,8 @@ ul.nav, .logo{
   display: none;
   position: fixed;
   z-index: 1;
-  padding-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   left: 0;
   top: 0;
   width: 100%;
@@ -87,6 +88,10 @@ ul.nav, .logo{
   padding: 30px;
 }
 
+.about-us{
+  padding-bottom: 100px;
+}
+
 
 .about-us-text{
   margin: 0 auto;
@@ -111,7 +116,7 @@ form h2{
   width: 100%;
   margin-bottom: 15px;
   padding: 20px;
-  border-radius: 50px;
+  border-radius: 30px;
   border: none;
   background: #f0f0f0;
 }
@@ -128,19 +133,14 @@ form h2{
   padding: 30px 40px; 
 }
 
-#close-button{
-  display: block;
-  font-size: 30px;
-  color: #1d1e1e;
-  float: right;
-  right: 30px;
-  position: absolute;
-  top: 30px;
-  font-weight: 700;
-  background-color: transparent;
-  border: none;
+#close-modal span{
+  color: black;
   cursor: pointer;
-  z-index: 1;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  right: -20px;
+  top: -30px;
 }
 
 .form-button{
@@ -154,6 +154,7 @@ form h2{
   background: #707070;
   cursor: pointer;
   font-family: 'Raleway', sans-serif;
+  box-shadow: 0 8px 10px rgba(0,0,0,0.22);
 }
 
 
