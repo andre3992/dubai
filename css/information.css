@@ -12,11 +12,15 @@ header {
     padding-top: 100px;
 }
 
-.slider-title h4 {
+.slider-title h3 {
     font-weight: 400;
     font-style: italic;
     font-size: 2.8rem;
     color: grey;
+}
+
+.carousel {
+    padding-bottom: 100px;
 }
 
 .col-sm {
@@ -26,11 +30,6 @@ header {
 .paragraph-i {
     color: grey;
 }
-
-
-/*.carousel {
-    color: grey;
-}*/
 
 .background-information {
     background-color: white;
