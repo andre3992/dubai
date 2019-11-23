@@ -13,18 +13,20 @@
 
 <body>
 
+
+  <!--NAV MENU E HEADER (BANNER)-->
   <div class="nav-header-home">
     <div class="nav-items row">
       <div class="col-12 col-sm-3">
         <a href="#" class="logo"><img src="./img/logo.png" alt=""></a>
       </div>
-      <nav class="nav">
+      <nav class="top-nav">
         <ul class="nav">
           <li class="nav-item menu-text">
-            <a class="navlink information" href="#">Information</a>
+            <a class="navlink information" href="information.html">Information</a>
           </li>
           <li class="nav-item menu-text">
-            <a class="navlink information" href="#">Tours</a>
+            <a class="navlink information" href="tours.html">Tours</a>
           </li>
           <li class="nav-item menu-text navlink-last">
             <a class="navlink information" id="open-modal" href="#">Contact Us</a>
@@ -41,6 +43,8 @@
     </main>
   </div>
 
+
+  <!--EVENTS-->
   <section class="events">
     <h2 class="secondary-title-h2">Events</h2>
     <div class="container">
@@ -102,6 +106,7 @@
     </div>
   </section>
 
+   <!--ABOUT US-->
   <section class="about-us">
     <div class="container">
       <h2 class="secondary-title-h2"> About us </h2>
@@ -117,11 +122,14 @@
     </div>
   </section>
 
+
+  <!--MODAL-->
   <section class="contact-us container">
     <div id="modal" class="container modal">
       <div class="modal-inner">
 
         <form class="col-12">
+          <div id="close-modal"><span>X</span></div>
           <h2>Contact Us</h2>
           <input name="name" id="name" placeholder="Name">
           <input name="email" id="email" placeholder="E-mail">
@@ -133,19 +141,21 @@
     </div>
   </section>
 
+
+  <!--FOOTER-->
   <footer>
     <div class="container">
       <div class="nav-items row">
-        <div class="col-12 col-sm-3">
+        <div class="col-12 col-sm-3 logo-box">
           <a href="#" class="logo"><img src="./img/logo.png" alt=""></a>
         </div>
-        <nav class="nav">
+        <nav class="col-12 col-sm-9">
           <ul class="nav">
             <li class="nav-item menu-text">
-              <a class="navlink information" href="#">Information</a>
+              <a class="navlink information" href="information.html">Information</a>
             </li>
             <li class="nav-item menu-text">
-              <a class="navlink information" href="#">Tours</a>
+              <a class="navlink information" href="tours.html">Tours</a>
             </li>
             <li class="nav-item menu-text navlink-last">
               <a class="navlink information" id="open-modal" href="#">Contact Us</a>
@@ -156,20 +166,28 @@
     </div>
   </footer>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  <!--SCRIPTS-->
+  <script 
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+    crossorigin="anonymous">
   </script>
 
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  <script 
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+    crossorigin="anonymous">
   </script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  <script 
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+    crossorigin="anonymous">
   </script>
 
-  <script src="css/javascript.js"></script>
+  <script 
+    src="css/javascript.js">
+  </script>
 
 </body>
-
 </html>
