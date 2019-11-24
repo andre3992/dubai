@@ -8,7 +8,7 @@
     opacity: 1;
 }
 
-.conttours {
+.margin {
     margin-bottom: 100px;
 }
 
@@ -25,4 +25,15 @@
     color: #4492e6;
     font-size: 30px;
     font-weight: bold;
+}
+
+.shadow p {
+    background-color: #f6f6f6;
+}
+
+.tips p {
+    line-height: 1.5;
+    font-style: italic;
+    border-color: grey;
+    border-left: solid;
 }
