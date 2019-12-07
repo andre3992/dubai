@@ -113,7 +113,7 @@ a:hover {
 }
 
 section {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 
@@ -209,5 +209,11 @@ section {
 @media screen and (min-width: 769px) {
     .dropdown {
         display: none;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .modal {
+        padding: 0
     }
 }
