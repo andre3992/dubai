@@ -9,7 +9,7 @@
 }
 
 header {
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .slider-title h3 {
@@ -20,7 +20,7 @@ header {
 }
 
 .carousel {
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .col-sm {
@@ -52,7 +52,7 @@ header {
     display: none;
     position: fixed;
     z-index: 1;
-    padding-top: 100px;
+    padding-top: 50px;
     left: 0;
     top: 0;
     width: 100%;
@@ -139,4 +139,12 @@ header {
     width: 3px;
     position: absolute;
     left: -19px;
+}
+
+.google {
+    padding-bottom: 50px;
+}
+
+.map iframe {
+    width: 100%;
 }
