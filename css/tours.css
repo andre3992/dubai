@@ -37,3 +37,9 @@
     border-color: grey;
     border-left: solid;
 }
+
+.separator {
+    border-bottom: 5px solid black;
+    margin-left: 90px;
+    margin-right: 90px;
+}

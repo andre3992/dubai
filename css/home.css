@@ -167,3 +167,25 @@ form h2 {
     font-family: 'Raleway', sans-serif;
     box-shadow: 0 8px 10px rgba(0, 0, 0, 0.22);
 }
+
+.about-us .col-sm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us h2 {
+    font-size: 50px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: solid 3px;
+    width: fit-content;
+    text-align: center;
+    position: relative;
+    margin: 40px auto 60px auto;
+}
+
+.aboutus img {
+    border-radius: 50%;
+}
