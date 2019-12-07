@@ -1,17 +1,12 @@
 /* Reset  default styles */
-@import url("reset.css");
 
+@import url("reset.css");
 @import url("tours.css");
 @import url("information.css");
 @import url("events.css");
-
-
-
 @import url("home.css");
 
 /* responsive styles */
-
-
 
 nav,
 footer {
@@ -26,7 +21,7 @@ footer ul {
     justify-content: space-between;
 }
 
-nav.col-12.col-sm-9{
+nav.col-12.col-sm-9 {
     justify-content: flex-end;
 }
 
@@ -48,7 +43,9 @@ a:hover {
     width: 170px;
 }
 
+
 /* título principal 55px*/
+
 .main-title-h1 {
     font-size: 8rem;
     font-weight: 900;
@@ -62,7 +59,9 @@ a:hover {
     /*line-height: 1.33;*/
 }
 
+
 /* subtítulo  */
+
 .secondary-title-h2 {
     font-size: 50px;
     margin-bottom: 40px;
@@ -75,13 +74,17 @@ a:hover {
     margin: 40px auto 60px auto;
 }
 
+
 /* paragraph 20px */
+
 .paragraph-p {
     font-size: 1.31em;
     line-height: 1.19;
 }
 
+
 /* nav and menu text styles 18px */
+
 .menu-text,
 .navlink {
     font-size: 1.3rem;
@@ -118,89 +121,93 @@ section {
 
 @media screen and (max-width: 1200px) {}
 
-/* IPAD */
-@media screen and (max-width: 768px) {
 
+/* IPAD */
+
+@media screen and (max-width: 768px) {
     .main-title-h1 {
         font-size: 6rem;
     }
-
-
     /*top navigation*/
-    .top-nav{
+    .top-nav {
         display: none;
     }
-
-
     /*footer mobile*/
-    nav.col-12.col-sm-9{
+    nav.col-12.col-sm-9 {
         justify-content: center;
     }
-
-    footer nav{
+    footer nav {
         justify-content: center;
     }
-
-    footer .nav{
+    footer .nav {
         justify-content: center;
     }
-
     footer .nav-items {
         justify-content: center;
     }
-
-    footer ul.nav, .logo {
+    footer ul.nav,
+    .logo {
         display: inline-block;
     }
-
-    footer .menu-text{
+    footer .menu-text {
         padding-right: 0px;
         text-align: center;
         padding-bottom: 10px;
         font-size: 18px;
     }
-
-    .information, .nav-link{
+    .information,
+    .nav-link {
         padding-right: 0px;
     }
-
-    .navlink-last:before {display: none;}
-
-    .logo-box{
+    .navlink-last:before {
+        display: none;
+    }
+    .logo-box {
         text-align: center;
         padding-bottom: 30px;
     }
 }
 
-/* MOBILE */
-@media screen and (max-width: 480px) {
 
+/* MOBILE */
+
+@media screen and (max-width: 480px) {
     .logo img {
         width: 100px;
     }
-
     .nav {
         display: none;
     }
-
     .about-us {
         padding: 0px 0px;
     }
-
     section {
         margin-top: 60px;
     }
-
     .main-title-h1 {
         font-size: 6rem;
     }
-
     .secondary-title-h2 {
         font-size: 3em;
     }
-
     .title-description {
         font-size: 40px;
         line-height: 1.19;
+    }
+}
+
+
+/* Hamburguer Menu */
+
+@media screen and (max-width: 768px) {
+    .dropdown {
+        display: block;
+        top: 10px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .dropdown {
+        display: none;
     }
 }

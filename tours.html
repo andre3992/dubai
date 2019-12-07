@@ -16,9 +16,25 @@
     <div class="background-information">
         <div class="nav-header-tour">
             <div class="nav-items row">
-                <div class="col-12 col-sm-3">
+                <div class="col-6 col-sm-3">
                     <a href="home.html" class="logo"><img src="./img/logo.png" alt=""></a>
                 </div>
+                <!--Navbar-->
+                <div class="dropdown">
+                    <a class="btn btn-secondary dropdown-toggle" href="img/reorder.svg" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="img/reorder.svg">
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="home.html">Home</a>
+                        <a class="dropdown-item" href="information.html">Information</a>
+                        <a class="dropdown-item" href="tours.html">Tours</a>
+                        <a class="dropdown-item" id="open-modal">Contact-Us</a>
+
+                    </div>
+                </div>
+                <!--/.Navbar-->
+
                 <nav class="top-nav">
                     <ul class="nav">
                         <li class="nav-item menu-text">
@@ -40,6 +56,7 @@
                 </div>
             </main>
         </div>
+
 
         <section class="paragraph-i">
             <div class="container">
@@ -217,6 +234,8 @@
                 </div>
             </div>
         </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
         </script>
 
