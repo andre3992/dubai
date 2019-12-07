@@ -16,9 +16,24 @@
     <div class="background-information">
         <div class="nav-header-info">
             <div class="nav-items row">
-                <div class="col-12 col-sm-3">
+                <div class="col-6 col-sm-3">
                     <a href="home.html" class="logo"><img src="./img/logo.png" alt=""></a>
                 </div>
+                <!--Navbar-->
+                <div class="dropdown">
+                    <a class="btn btn-secondary dropdown-toggle" href="img/reorder.svg" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="img/reorder.svg">
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="home.html">Home</a>
+                        <a class="dropdown-item" href="information.html">Information</a>
+                        <a class="dropdown-item" href="tours.html">Tours</a>
+                        <a class="dropdown-item" id="open-modal">Contact-Us</a>
+
+                    </div>
+                </div>
+                <!--/.Navbar-->
                 <nav class="top-nav">
                     <ul class="nav">
                         <li class="nav-item menu-text">
@@ -33,6 +48,7 @@
                     </ul>
                 </nav>
             </div>
+
             <main class="container">
                 <div class="banner-content">
                     <h1 class="main-title-h1">BALI</h1>
@@ -75,12 +91,12 @@
                                 </div>
                                 <div class="col-sm">
                                     <div class="slider-title">
-                                        <h3>8
+                                        <h4>8
                                             <BR>INCREDIBLY</br>
                                             USEFUL THINGS
                                             <BR>TO KNOW</br>
                                             BEFORE YOU VISIT BALI
-                                        </h3>
+                                        </h4>
                                     </div>
                                     <p>"Bali is home to crazy, crazy traffic, and even out of rush hour, just a few kilometres of driving will take much longer than expected. Whilst it's kind of unavoidable, it's important to be aware of, especially if planning
                                         day trips, attempting to make it somewhere for sunset or aiming to catch a flight! Always ask your hotel for a rough travel time estimate before booking a taxi."
@@ -278,6 +294,9 @@
                 </div>
             </div>
         </footer>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
         </script>
 

@@ -1,206 +1,196 @@
-/* Reset  default styles */
-@import url("reset.css");
-
-@import url("tours.css");
-@import url("information.css");
-@import url("events.css");
-
-
-
-@import url("home.css");
-
-/* responsive styles */
-
-
-
-nav,
-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav ul,
-footer ul {
-    display: inline-flex;
-    justify-content: space-between;
-}
-
-nav.col-12.col-sm-9{
-    justify-content: flex-end;
-}
-
-nav.container {
-    padding: 50px 0px;
-}
-
-body {
-    font-family: 'Raleway', sans-serif;
-    background-color: #1d1e1e;
-    color: white;
-}
-
-a:hover {
-    text-decoration: none;
-}
-
-.logo img {
-    width: 170px;
-}
-
-/* título principal 55px*/
-.main-title-h1 {
-    font-size: 8rem;
-    font-weight: 900;
-    /*line-height: 1.33;*/
-    color: white;
-}
-
-.title-description {
-    font-size: 3rem;
-    color: white;
-    /*line-height: 1.33;*/
-}
-
-/* subtítulo  */
-.secondary-title-h2 {
-    font-size: 50px;
-    margin-bottom: 40px;
-    font-weight: bold;
-    text-align: center;
-    border-bottom: solid 3px;
-    width: fit-content;
-    text-align: center;
-    position: relative;
-    margin: 40px auto 60px auto;
-}
-
-/* paragraph 20px */
-.paragraph-p {
-    font-size: 1.31em;
-    line-height: 1.19;
-}
-
-/* nav and menu text styles 18px */
-.menu-text,
-.navlink {
-    font-size: 1.3rem;
-    line-height: 1.33;
-    color: white;
-    position: relative;
-    font-weight: bold;
-    transition: 0.2s;
-    padding-right: 20px;
-}
-
-.navlink:hover,
-.navlink:focus {
-    color: #e4f757;
-    text-decoration: none;
-}
-
-.navlink-last:before {
-    content: "";
-    display: block;
-    height: 27px;
-    background: #fff;
-    width: 3px;
-    position: absolute;
-    left: -19px;
-}
-
-section {
-    margin-top: 100px;
-}
-
-
-/* ----------------------------------MEDIA QUERIES----------------------------------------------------------*/
-
-@media screen and (max-width: 1200px) {}
-
-/* IPAD */
-@media screen and (max-width: 768px) {
-
-    .main-title-h1 {
-        font-size: 6rem;
-    }
-
-
-    /*top navigation*/
-    .top-nav{
-        display: none;
-    }
-
-
-    /*footer mobile*/
-    nav.col-12.col-sm-9{
-        justify-content: center;
-    }
-
-    footer nav{
-        justify-content: center;
-    }
-
-    footer .nav{
-        justify-content: center;
-    }
-
-    footer .nav-items {
-        justify-content: center;
-    }
-
-    footer ul.nav, .logo {
-        display: inline-block;
-    }
-
-    footer .menu-text{
-        padding-right: 0px;
-        text-align: center;
-        padding-bottom: 10px;
-        font-size: 18px;
-    }
-
-    .information, .nav-link{
-        padding-right: 0px;
-    }
-
-    .navlink-last:before {display: none;}
-
-    .logo-box{
-        text-align: center;
-        padding-bottom: 30px;
-    }
-}
-
-/* MOBILE */
-@media screen and (max-width: 480px) {
-
-    .logo img {
-        width: 100px;
-    }
-
-    .nav {
-        display: none;
-    }
-
-    .about-us {
-        padding: 0px 0px;
-    }
-
-    section {
-        margin-top: 60px;
-    }
-
-    .main-title-h1 {
-        font-size: 6rem;
-    }
-
-    .secondary-title-h2 {
-        font-size: 3em;
-    }
-
-    .title-description {
-        font-size: 40px;
-        line-height: 1.19;
-    }
-}
+             /* Reset  default styles */
+             
+             @import url("reset.css");
+             @import url("tours.css");
+             @import url("information.css");
+             @import url("events.css");
+             @import url("home.css");
+             /* responsive styles */
+             
+             nav,
+             footer {
+                 display: flex;
+                 justify-content: space-between;
+                 align-items: center;
+             }
+             
+             nav ul,
+             footer ul {
+                 display: inline-flex;
+                 justify-content: space-between;
+             }
+             
+             nav.col-12.col-sm-9 {
+                 justify-content: flex-end;
+             }
+             
+             nav.container {
+                 padding: 50px 0px;
+             }
+             
+             body {
+                 font-family: 'Raleway', sans-serif;
+                 background-color: #1d1e1e;
+                 color: white;
+             }
+             
+             a:hover {
+                 text-decoration: none;
+             }
+             
+             .logo img {
+                 width: 170px;
+             }
+             /* título principal 55px*/
+             
+             .main-title-h1 {
+                 font-size: 8rem;
+                 font-weight: 900;
+                 /*line-height: 1.33;*/
+                 color: white;
+             }
+             
+             .title-description {
+                 font-size: 3rem;
+                 color: white;
+                 /*line-height: 1.33;*/
+             }
+             /* subtítulo  */
+             
+             .secondary-title-h2 {
+                 font-size: 50px;
+                 margin-bottom: 40px;
+                 font-weight: bold;
+                 text-align: center;
+                 border-bottom: solid 3px;
+                 width: fit-content;
+                 text-align: center;
+                 position: relative;
+                 margin: 40px auto 60px auto;
+             }
+             /* paragraph 20px */
+             
+             .paragraph-p {
+                 font-size: 1.31em;
+                 line-height: 1.19;
+             }
+             /* nav and menu text styles 18px */
+             
+             .menu-text,
+             .navlink {
+                 font-size: 1.3rem;
+                 line-height: 1.33;
+                 color: white;
+                 position: relative;
+                 font-weight: bold;
+                 transition: 0.2s;
+                 padding-right: 20px;
+             }
+             
+             .navlink:hover,
+             .navlink:focus {
+                 color: #e4f757;
+                 text-decoration: none;
+             }
+             
+             .navlink-last:before {
+                 content: "";
+                 display: block;
+                 height: 27px;
+                 background: #fff;
+                 width: 3px;
+                 position: absolute;
+                 left: -19px;
+             }
+             
+             section {
+                 margin-top: 100px;
+             }
+             /* ----------------------------------MEDIA QUERIES----------------------------------------------------------*/
+             
+             @media screen and (max-width: 1200px) {}
+             /* IPAD */
+             
+             @media screen and (max-width: 768px) {
+                 .main-title-h1 {
+                     font-size: 6rem;
+                 }
+                 /*top navigation*/
+                 .top-nav {
+                     display: none;
+                 }
+                 /*footer mobile*/
+                 nav.col-12.col-sm-9 {
+                     justify-content: center;
+                 }
+                 footer nav {
+                     justify-content: center;
+                 }
+                 footer .nav {
+                     justify-content: center;
+                 }
+                 footer .nav-items {
+                     justify-content: center;
+                 }
+                 footer ul.nav,
+                 .logo {
+                     display: inline-block;
+                 }
+                 footer .menu-text {
+                     padding-right: 0px;
+                     text-align: center;
+                     padding-bottom: 10px;
+                     font-size: 18px;
+                 }
+                 .information,
+                 .nav-link {
+                     padding-right: 0px;
+                 }
+                 .navlink-last:before {
+                     display: none;
+                 }
+                 .logo-box {
+                     text-align: center;
+                     padding-bottom: 30px;
+                 }
+             }
+             /* MOBILE */
+             
+             @media screen and (max-width: 480px) {
+                 .logo img {
+                     width: 100px;
+                 }
+                 .nav {
+                     display: none;
+                 }
+                 .about-us {
+                     padding: 0px 0px;
+                 }
+                 section {
+                     margin-top: 60px;
+                 }
+                 .main-title-h1 {
+                     font-size: 6rem;
+                 }
+                 .secondary-title-h2 {
+                     font-size: 3em;
+                 }
+                 .title-description {
+                     font-size: 40px;
+                     line-height: 1.19;
+                 }
+             }
+             /* Hamburguer Menu */
+             
+             @media screen and (max-width: 768px) {
+                 .dropdown {
+                     display: block;
+                     top: 10px;
+                 }
+             }
+             
+             @media screen and (min-width: 769px) {
+                 .dropdown {
+                     display: none;
+                 }
+             }
