@@ -96,11 +96,6 @@ ul.nav,
     margin: 0 auto;
 }
 
-.about-us p {
-    margin: 0 auto;
-    text-align: center;
-}
-
 .modal-inner {
     position: relative;
 }
@@ -172,6 +167,8 @@ form h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 40px;
+    color: white
 }
 
 .about-us h2 {
